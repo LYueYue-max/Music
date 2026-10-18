@@ -10,8 +10,8 @@
 ---
 
 ## 一、目录结构
-├── index.html # 页面入口（含路由挂载点、Toast、Modal、播放器容器）
-├── css/
+├── index.html # 页面入口（含路由挂载点、Toast、Modal、播放器容器）\n
+├── css/\n
 │ └── style.css # 全部样式（圆润主题 + 响应式）
 ├── js/
 │ ├── utils.js # 工具函数（校验、转义、Toast、对话框、时间格式化）
