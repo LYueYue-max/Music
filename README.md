@@ -10,3 +10,15 @@
 ---
 
 ## 一、目录结构
+├── index.html # 页面入口（含路由挂载点、Toast、Modal、播放器容器）
+├── css/
+│ └── style.css # 全部样式（圆润主题 + 响应式）
+├── js/
+│ ├── utils.js # 工具函数（校验、转义、Toast、对话框、时间格式化）
+│ ├── store.js # 数据层（localStorage + 前端哈希）
+│ ├── auth.js # 登录 / 注册 / 密码校验
+│ ├── player.js # 音乐播放器弹窗
+│ ├── admin.js # 管理员界面全部面板
+│ ├── user.js # 普通用户 / 游客界面
+│ └── app.js # 路由守卫、倒计时、启动逻辑
+└── README.md
